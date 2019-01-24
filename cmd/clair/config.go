@@ -22,10 +22,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/coreos/clair"
-	"github.com/coreos/clair/api"
-	"github.com/coreos/clair/database"
-	"github.com/coreos/clair/ext/notification"
+	"github.com/tomohaya/clair"
+	"github.com/tomohaya/clair/api"
+	"github.com/tomohaya/clair/database"
+	"github.com/tomohaya/clair/ext/notification"
 	"github.com/fernet/fernet-go"
 )
 

@@ -21,8 +21,8 @@ import (
 	"github.com/julienschmidt/httprouter"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coreos/clair/api/v1"
-	"github.com/coreos/clair/database"
+	"github.com/tomohaya/clair/api/v1"
+	"github.com/tomohaya/clair/database"
 )
 
 // router is an HTTP router that forwards requests to the appropriate sub-router
